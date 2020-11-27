@@ -525,6 +525,11 @@ transform: scale(1.1);
     
   }
 
+  .tech-title{
+   margin-right: 30px;
+   margin-left: 30px;
+  }
+
   /* .experience-container:hover{
    border-radius: 3px;
     box-shadow: 0 8px 6px 3px #65B4FF;
