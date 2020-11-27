@@ -541,6 +541,12 @@ transform: scale(1.1);
   /*---------------------------------------
      CONTACT              
   -----------------------------------------*/
+.emoji{
+  display: block;
+ padding-top: 60px;
+ cursor: pointer;
+}
+
 
 .contact-section{
   display: flex;
