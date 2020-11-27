@@ -24,6 +24,8 @@
       font-style: normal;
   }
 
+
+  /* ----Global stuff */
   :root[color-mode="light"]
   {
     --primary-color:        #64b4ff;
@@ -75,6 +77,7 @@
   /*---------------------------------------
      TYPOGRAPHY              
   -----------------------------------------*/
+
 
   h1,h2,h3,h4,h5,h6 {
     font-weight: var(--font-weight-thin);
@@ -135,7 +138,9 @@
     padding: 7rem 0;
   }
 
-
+.blue-text{
+  color: #64b4ff;
+}
   /* BUTTON */
 
 #Capa_1{
