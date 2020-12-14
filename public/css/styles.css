@@ -30,6 +30,8 @@
   {
     --primary-color:        #64b4ff;
     --white-color:          #ffffff;
+    --bg-dark-color:        #000000;
+    --bg-white-color:       #000000;
     --dark-color:           #171819;
     --about-bg-color:       #f9f9f9;
 
@@ -40,9 +42,11 @@
   }
   :root {
     --primary-color:        #64b4ff;
+    --bg-dark-color:        #000000;
     --white-color:          #ffffff;
     --dark-color:           #171819;
-    --about-bg-color:       #f9f9f9;
+    --about-bg-color:       #ffffff;
+    /* --about-bg-color:       #000000; */
 
     --gray-color:           #909090;
     --link-color:           #404040;
@@ -415,7 +419,7 @@
 }
 
   .projects-info {
-    background: var(--white-color);
+    background: var(--bg-white-color);
     box-shadow: 6px 0 38px rgba(20,20,20,0.10);
     border-radius: 0 0 2px 2px;
     padding: 1rem 2rem;
@@ -471,7 +475,7 @@ transform: scale(1.1);
 
   .passion {
     padding-top: 3px;
-    background: #FFFFFF;
+    background: var(--about-bg-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -604,6 +608,18 @@ transform: scale(1.1);
   }
 
 
+
+  /* Snow */
+
+  #snow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    z-index: 1000;
+}
   /*---------------------------------------
      RESPONSIVE STYLES              
   -----------------------------------------*/
