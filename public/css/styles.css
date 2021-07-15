@@ -655,12 +655,17 @@ transform: scale(1.1);
       font-size: 38px;
     }
 
-    .about-working-hours {
-      border-left: 0;
-      padding: 22px 0 0 0;
-    }
+
 
     .contact h2 span {
       display: block;
+    }
+
+    .contact-section{
+      margin-bottom: 4rem;
+    }
+
+    .experience{
+      margin-bottom: 4rem;
     }
   }
