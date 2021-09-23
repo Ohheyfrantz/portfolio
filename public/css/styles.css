@@ -145,6 +145,18 @@
 .blue-text{
   color: #64b4ff;
 }
+
+.gold{
+  color: #F6830D;
+}
+
+.green{
+  color: #C8B88A;
+}
+
+.text-white{
+  color: #fff;
+}
   /* BUTTON */
 
 #Capa_1{
@@ -394,7 +406,31 @@
     vertical-align: middle;
     min-height: 100vh;
     position: relative;
+    width: 100%;
   }
+
+  video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /* z-index: 5; */
+    object-fit: cover;
+    background: rgba(0, 0, 0, 9);
+}
+
+.hero-vid::after{
+  width: 100%;
+  height: 100%;
+  content: '';
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
 
   .emoji-finger{
     padding-top: 25%;
@@ -650,6 +686,16 @@ transform: scale(1.1);
   }
 
   @media screen and (max-width: 767px) {
+      .hero {
+    background-image: url('../images/hero-bg.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+  }
 
     h1 {
       font-size: 38px;
