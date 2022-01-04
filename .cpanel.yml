@@ -2,7 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/frantzli/public_html/
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp * $DEPLOYPATH
-    - /bin/cp/portfolio/public/css styles.css $DEPLOYPATH
-    - /bin/cp/portfolio/public/images/* $DEPLOYPATH
+    - /bin/cp -r * $DEPLOYPATH
